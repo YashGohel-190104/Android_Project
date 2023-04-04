@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMI_ACTIVITY"
+    android:orientation="vertical"
+    android:background="#85A64545"
+    >
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/h_feet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height(Feet)"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/h_inch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height(Inch)"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <android.widget.Button
+        android:id="@+id/C_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="25dp"
+        android:textColor="#FF6F00"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="30dp"
+        android:textColor="#DC6C0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

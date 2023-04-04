@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".home_work_Sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".spinner"
+            android:exported="false" />
+        <activity
+            android:name=".Video_demo"
+            android:exported="false" />
+        <activity
+            android:name=".alert_box"
+            android:exported="false" />
+        <activity
+            android:name=".Smple_List"
+            android:exported="false" />
+        <activity
+            android:name=".Implicit_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Life_Cycle_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Toast_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".intent_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Activity_2"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Work_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BMI_ACTIVITY"
+            android:exported="false" />
+        <activity
+            android:name=".LinearLayout"
+            android:exported="false" />
+        <activity
+            android:name=".add_two_number"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
